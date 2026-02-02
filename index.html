@@ -1,4 +1,210 @@
 <!DOCTYPE html>
+<style>
+    h1,
+    h2 {
+        padding-left: 35%;
+    }
 
-# treeplate.damowmow.com index
+    .gamelink {
+        text-decoration: none;
+        color: #000;
+        border: 5px outset #ddd;
+    }
 
+    .card {
+        padding: 10px;
+        border: 2px solid #000;
+        width: 12em;
+        margin: 10px
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    li {
+        list-style: none;
+    }
+</style>
+<header>
+    <h1>treeplate.damowmow.com index</h1>
+</header>
+<article>
+    <h2>Flutter Apps</h2>
+    <ul>
+        <li>
+            <article class=card>
+                <hgroup>
+                    <h3>Wizard vs Red Squares</h3>
+                    <p>A platformer where you can shoot fire.</p>
+                </hgroup>
+                <a class=gamelink href="../wizard">Play</a>
+            </article>
+        </li>
+        <li>
+            <article class=card>
+                <hgroup>
+                    <h3>Turkey Machine</h3>
+                    <p>An implementation of <a href="https://samhogan.itch.io/cell-machine">Cell Machine</a>, but more
+                        sandboxed and slightly turkey-themed.</p>
+                </hgroup>
+                <a class=gamelink href="../explorer">Play</a>
+            </article>
+        </li>
+        <li>
+            <article class=card>
+                <hgroup>
+                    <h3>Box Factory</h3>
+                    <p>A simple simulation thing with a few NPCs that work together to make boxes, and you can also make
+                        boxes.</p>
+                </hgroup>
+                <a class=gamelink href="../boxes">Play</a>
+            </article>
+        </li>
+        <li>
+            <article class=card>
+                <hgroup>
+                    <h3>Pumpkin Clicker</h3>
+                    <p>A simple clicker game.</p>
+                </hgroup>
+                <a class=gamelink href="../autumn">Play</a>
+            </article>
+        </li>
+        <li>
+            <article class=card>
+                <hgroup>
+                    <h3>Fireworks Simulator</h3>
+                    <p>A simple fireworks simulator.</p>
+                </hgroup>
+                <a class=gamelink href="../fireworks">Play</a>
+            </article>
+        </li>
+        <li>
+            <article class=card>
+                <hgroup>
+                    <h3>Knight Chess</h3>
+                    <p>A chess variant where you can buy knights with coins earned by taking knights.</p>
+                </hgroup>
+                <a class=gamelink href="../chess">Play</a>
+            </article>
+        </li>
+        <li>
+            <article class=card>
+                <hgroup>
+                    <h3>Tag System Simulator</h3>
+                    <p>A simulator for any arbitrary tag system.</p>
+                </hgroup>
+                <a class=gamelink href="../tag">Play</a>
+            </article>
+        </li>
+        <li>
+            <article class=card>
+                <hgroup>
+                    <h3>PrintLang</h3>
+                    <p>A programming language interpreter. The programming language is a series of semicolon-separated
+                        statements. The only possible statements are "expression", followed by an expression, and
+                        "call:", followed by an expression (the function), followed by any number of comma-seperated
+                        expressions (the
+                        arguments), followed by a semicolon. The only possible expressions are "print", and strings.</p>
+                </hgroup>
+                <a class=gamelink href="../proglang">Play</a>
+            </article>
+        </li>
+        <li>
+            <article class=card>
+                <hgroup>
+                    <h3>Ant Craft</h3>
+                    <p>A game where you can mine iron, dirt, and stone, and you can pick up wood, and plant and craft
+                        and place stuff.</p>
+                </hgroup>
+                <a class=gamelink href="../antcraft">Play</a>
+            </article>
+        </li>
+        <li>
+            <article class=card>
+                <hgroup>
+                    <h3>Wooden Doors 2</h3>
+                    <p>A platformer with doors, boxes, and buttons.</p>
+                </hgroup>
+                <a class=gamelink href="../doors2">Play</a>
+            </article>
+        </li>
+        <li>
+            <article class=card>
+                <hgroup>
+                    <h3>ISD Star Finder</h3>
+                    <p>A tool to help you find stars with certain names in <a href=https://github.com/Hixie/isd>ISD</a>.
+                    </p>
+                </hgroup>
+                <a class=gamelink href="../isd_starnames">Play</a>
+            </article>
+        </li>
+    </ul>
+</article>
+<article>
+    <h2>Pure HTML+CSS+JS</h2>
+    <ul>
+        <li>
+            <article class=card>
+                <hgroup>
+                    <h3>Cookies</h3>
+                    <p>A very simple clicker.</p>
+                </hgroup>
+                <a class=gamelink href="../cookies.html">Play</a>
+            </article>
+        </li>
+        <li>
+            <article class=card>
+                <hgroup>
+                    <h3>Sheep Cow</h3>
+                    <p>A tool to determine if your browser supports Javascript. If it does, the headings will be "CATS"
+                        and "ROBOTS". If it doesn't, they will be "COWS" and "SHEEP".</p>
+                </hgroup>
+                <a class=gamelink href="../sheepcow.html">Play</a>
+            </article>
+        </li>
+    </ul>
+</article>
+<article>
+    <h2>Miscellaneous</h2>
+    <ul>
+        <li>
+            <article class=card>
+                <hgroup>
+                    <h3>Cat Breeding Simulator</h3>
+                    <p>A simulator for cat breeding, written in Dart.</p>
+                </hgroup>
+                <a class=gamelink href="../cat-sim.dart">Play</a>
+            </article>
+        </li>
+        <li>
+            <article class=card>
+                <hgroup>
+                    <h3>horse.png</h3>
+                    <p>A 16x16 horse icon.</p>
+                </hgroup>
+                <a class=gamelink href="../horse.png">Play</a>
+            </article>
+        </li>
+        <li>
+            <article class=card>
+                <hgroup>
+                    <h3>CuddlyTreeWorld</h3>
+                    <p><a href="software.hixie.ch/fun/cuddlyworld">Cuddlyworld</a> but it doesn't ignore the first
+                        message sent after the login information (code mostly copied from that site)</p>
+                </hgroup>
+                <a class=gamelink href="../cuddlyworld.html">Play</a>
+            </article>
+        </li>
+        <li>
+            <article class=card>
+                <hgroup>
+                    <h3>Treebliterator</h3>
+                    <p>My <a href="software.hixie.ch/fun/robliterator">Robliterator</a> bot.</p>
+                </hgroup>
+                <a class=gamelink href="../robliterator">Play</a>
+            </article>
+        </li>
+    </ul>
+</article>
